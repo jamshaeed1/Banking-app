@@ -1,3 +1,3 @@
 #!/bin/bash
-apt install -y httpd
+sudo apt install -y httpd
 
