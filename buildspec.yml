@@ -12,6 +12,7 @@ phases:
   post_build:
     commands:
       - echo "Pushing Docker image to ECR..."
+      - docker push $REPOSITORY_URI:latest
       - printf '[{"name":"%s","imageUri":"%s"}]' $CONTAINER_NAME $REPOSITORY_URI:latest > $CODEBUILD_SRC_DIR/imagedefinitions.json
 
 artifacts:
