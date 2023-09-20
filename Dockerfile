@@ -1,4 +1,4 @@
-From 190168171128.dkr.ecr.eu-central-1.amazonaws.com/node:latest
+FROM 190168171128.dkr.ecr.eu-central-1.amazonaws.com/node:latest1
 
  
 
